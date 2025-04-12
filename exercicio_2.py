@@ -23,3 +23,11 @@ Os números ímpares são [1, 3, 5]
 lista = [*map(int, input("Digite a sua lista (separando os números por vírgula): ").split(","))]
 
 # Fazer a partir daqui...
+
+Resultado:
+
+lista = [*map(int, input("Digite a sua lista (separando os números por vírgula): ").split(","))]
+
+impares = [num for num in lista if num % 2 != 0]
+
+print(f"Os números ímpares são {impares}")
